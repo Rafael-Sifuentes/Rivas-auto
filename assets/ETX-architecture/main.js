@@ -120,3 +120,25 @@ var sauceSwiper = new Swiper(".services__container", {
 	 	prevEl: ".prev-pic-btn",
 	   },
 })
+
+
+var reviewSwiper = new Swiper(".reviews",{
+
+    centeredSlides: true,
+	loop: true,
+    slidesPerView: 1,
+    spaceBetween: 30,
+
+
+    breakpoints: {
+        700: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+    },
+
+    navigation: {
+        nextEl: ".prev-review-btn",
+        prevEl: ".next-review-btn",
+    },
+})
